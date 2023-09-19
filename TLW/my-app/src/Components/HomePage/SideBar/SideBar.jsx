@@ -4,13 +4,13 @@ import "./SideBar.scss";
 import logo from '../../../Assets/logo.png'
 const SideBar = () => {
     return (
-        <div>
-        <div className="logo flex">
-                <img src={logo} alt="Img Name"></img>
-                <h2>GameWeb</h2>
+        <div className="sideBar">
+            <div className="logo flex">
+                <a href="/" className="noneColorLink">
+                    <img src={logo} alt="Img Name"></img>
+                    <h2 style={{ fontSize: "var(--h3Fontsize)",color: "var(--titleText)"  }}>GameWeb</h2>
+                </a>
             </div>
-        <div className="sideBar grid">
-            
             <div className="Tag">
                 <h3 className="Title">
                     USER MENU
@@ -36,7 +36,6 @@ const SideBar = () => {
 
                 </ul>
             </div>
-        </div>
         </div>
     )
 }

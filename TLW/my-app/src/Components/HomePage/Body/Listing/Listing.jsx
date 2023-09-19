@@ -3,7 +3,7 @@ import "./Listing.scss";
 
 const Listing = () => {
     return (
-        <div>Listing</div>
+        <div>Try our games now!</div>
     )
 }
 
