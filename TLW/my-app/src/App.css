@@ -68,8 +68,8 @@ body{
 
 .container{
   position: relative;
-  width: 90vw;
-  height: 90vh;
+  width: 98vw;
+  height: 98vh;
   display: flex;
   align-items: center;
   justify-content: center;
