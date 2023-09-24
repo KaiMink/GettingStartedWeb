@@ -7,11 +7,13 @@ const Activity = () => {
         <div className="Body flex">
             <ul className="GameBoxes grid">
                 <li className="GameBox flex">
+                    <a href="Game-X" target="_self">
                     <img src={img1} className="GameIcon"></img>
                     <div className="GameContent grid">
                         <p>Game 1</p>
                         <p>Description/Like</p>
                     </div>
+                    </a>
                 </li>
                 <li className="GameBox flex">
                     <img src={img1} className="GameIcon"></img>

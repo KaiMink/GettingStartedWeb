@@ -21,7 +21,11 @@ const SideBar = () => {
                             Trang cá nhân
                         </a>
                     </li>
-
+                    <li className="ListItems">
+                        <a href="/log-in" className="tagLink">
+                            Đăng xuất
+                        </a>
+                    </li>
 
                 </ul>
             </div>

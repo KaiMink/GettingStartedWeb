@@ -1,12 +1,28 @@
-.mainContent{
+.gamePageContent{
     width: 80%;
     height: 100%;
-    padding: 2rem;
     overflow: auto;
+    justify-self: center;
 
-    .body{
-        margin-top: 2rem;
-        gap: 2rem;
-        align-items: flex-start;
+    .bodyGame{
+        width: 100%;
+        height: 100%;
+        gap: 1rem;
+        padding: 2rem;
+        p{
+            width: 100%;
+            height: 10%;
+            color: var(--titleText);
+            font-size: var(--h1FontSize);
+            text-align: center;
+        }
+
+        .GameWindow{
+            width: 100%;
+            height: 90%;
+            overflow: auto;
+            justify-self: center;
+            background-color: aquamarine;
+        }    
     }
 }
