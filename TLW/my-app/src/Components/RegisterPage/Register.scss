@@ -1,5 +1,5 @@
 
-.LogInContainer{
+.RegisterContainer{
     position: relative;
     width: 100%;
     height: 100%;
@@ -12,7 +12,7 @@
     overflow: hidden;
     border-radius: 1rem;
     box-shadow: 2px 3px 8px gray;
-    .loginContent{
+    .registerContent{
         width: 30%;
         height: 70%;
         overflow: auto;
@@ -21,21 +21,14 @@
         border: 2px solid #000;
         border-radius: 20px;
         background-color: transparent;
-        .LoginForm{
+        .RegisterForm{
             width: 100%;
             height: 100%;
             gap: 1rem;
             padding: 2rem;
             .Title{
-                font-weight: bold;
                 text-align: center;
-                font-size: var(--h1FontSize);
-                color: var(--white-color);
-            }
-            .SubTitle{
-                font-weight:lighter;
-                text-align: center;
-                font-size: var(--normalFontSize);
+                font-size: var(--biggest-font-size);
                 color: var(--white-color);
             }
             .inputBox{
@@ -45,7 +38,6 @@
                 border-radius: 5px;
                 gap: 1rem;
                 padding: 5px;
-                border: 2px solid #000;
                 box-shadow: 0 2px 4px var(--orange);
                 justify-self: center;
                 input{
@@ -56,42 +48,7 @@
                     background: none;
                 }
             }
-            .btn{
-                background-color: transparent;
-                border: none;
-                box-shadow: none;
-                font-weight: bold;
-                color: var(--white-color);
-                text-decoration:none;
-                &:hover{
-                    cursor: pointer;
-                    text-decoration: underline;
-                }
-            }
-            .rememberForgot{
-                justify-content: space-between;
-                font-size: var(--h3FontSize);
-                label{
-                    input{
-                        margin: 0;
-                        margin-right: 5px;
-                        border: #000;
-                    }
-                    color: var(--white-color);
-                    
-                }
-                button{
-                    background-color: transparent;
-                    border: none;
-                    font-weight: bold;
-                    color: var(--white-color);
-                    text-decoration:none;
-                    &:hover{
-                        cursor: pointer;
-                        text-decoration: underline;
-                    }
-                }
-            }
+            
             .SubmitButton{
                 width: 50%;
                 height: 50px;
@@ -104,7 +61,7 @@
                     background-color: var(--bodyBgColor);
                 }
             }
-            .RegisterLink{
+            .logInLink{
                 
                 font-size: var(--h3FontSize);
                 p{

@@ -104,7 +104,6 @@ body{
 .noneColorLink{
   color: var(--black-color);
   text-decoration: none;
-  display: flex;
   flex-direction: column;
   text-align: center;
 }

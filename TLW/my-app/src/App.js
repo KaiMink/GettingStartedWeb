@@ -4,6 +4,7 @@ import HomePage from './Components/HomePage/Body/HomePage';
 import UserProfile from './Components/UserProfile/UserProfile';
 import LogIn from './Components/LogInPage/Login';
 import GamePage from  './Components/GamePage/GamePage';
+import Register from './Components/RegisterPage/Register';
 
 /*Routing*/
 import { BrowserRouter, Routes, Route, Navigate  } from "react-router-dom";
@@ -16,6 +17,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/log-in" element={<LogIn />} /> 
+          <Route path="/Register" element={<Register />} /> 
           {/*{userLogIn ? <Navigate to="/" /> : (<LogIn userLogIn={userLogIn} setUserLogIn={setUserLogIn} />)} />*/}
           <Route path="/" element={(
             <div className='container'>
